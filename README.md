@@ -1,6 +1,6 @@
 # Commands of git
-# 
-# iniciar um repositorio git
+
+### iniciar um repositorio git
 git init
 
 # verificar status 
@@ -24,7 +24,7 @@ git reset HEAD arquivo.ext
 #
 # voltar versao de um commit
 # obs.: cria um branch separado.
-git checkout 01f3 #..... <- hash completo
+git checkout 01f3 //..... <- hash completo
 
 # Voltar para branch principal
 git checkout master
