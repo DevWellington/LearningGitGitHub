@@ -194,7 +194,7 @@ git pull
 
 - Puxar as alterações do repositorio remoto
 ```
-git pull orign master
+git pull origin master
 ```
 
 - Removendo branch remoto
@@ -232,7 +232,7 @@ git push origin :refs/tags/1.0.0
 ```
 
 ```
- Verionamento Semantico
+ Versionamento Semantico
  1.0.0 
  1.    -> versao principal do sistema - MAJOR 
  		   quebra compatibilidade
