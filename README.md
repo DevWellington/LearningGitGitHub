@@ -150,4 +150,57 @@ git branch -D nomeDoBranch
 ssh-keygen
 ```
 
+- Adiciona ao repositorio remoto
+```
+git remote add origin git@github.com:User/Repository.git
+```
+
+- Sobe os arquivos para o repositorio remoto
+```
+git push -u origin master
+```
+
+- Subir arquivos depois do commit
+```
+git push orgin master
+```
+
+- Clonar repositorio do GitHub
+```
+git clone https://url.gitHub
+```
+
+- Visualizar todos os branchs (Locais e remotos)
+```
+git branch -a
+```
+
+- enviar branch para servidor remoto
+```
+git push origin nomeDoBranch
+```
+
+- Pegar os branchs remotos
+1. branchLocal -> nome do branch local
+2. origin/branchRemoto -> localizacao do branch Remoto
+```
+git checkout -b branchLocal origin/branchRemoto
+```
+
+- verificar se arquivos estao sincronizados
+```
+git pull
+```
+
+- Puxar as alterações do repositorio remoto
+```
+git pull orign master
+```
+
+- Removendo branch remoto
+```
+git push origin :nome-do-branch
+```
+
+
 
