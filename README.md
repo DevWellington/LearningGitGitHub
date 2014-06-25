@@ -202,5 +202,61 @@ git pull orign master
 git push origin :nome-do-branch
 ```
 
+### TAGs ##
+##### Releases - Versões
+
+- Criar uma tag
+1. 1.0.0 -> valor da tag, ou versão do sistema
+```
+git tag 1.0.0
+```
+
+- Listar todas as tags
+```
+git tag -l
+```
+
+- Enviar tag para repositorio remoto
+```
+git push origin master --tags
+```
+
+- remover tag local
+```
+git tag -d 1.0.0
+```
+
+- remover tag remota
+```
+git push origin :refs/tags/1.0.0
+```
+
+```
+ Verionamento Semantico
+ 1.0.0 
+ 1.    -> versao principal do sistema - MAJOR 
+ 		   quebra compatibilidade
+ 1.0   -> versao dentro de uma versao - MINOR 
+ 		   pode quebrar compatibilidade
+ 1.0.0 -> melhorias e correcoes de erros - PATCH
+		   não quebra compatibilidade
+		   
+	http://semver.org/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
